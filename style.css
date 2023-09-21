@@ -37,27 +37,33 @@
 /*--------------NavBar-------------------------------------*/
 #navegacion {
     height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.custonav>ul>li>a {
+.navbar-nav>li>a {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: #979292 5px 5px 10px;
     text-decoration-line: none;
+}
 
+.navbar-nav>li>a:hover {
+    color: white;
+    font-size: 15px;
+    border-bottom: solid 3px white;
+    transition: 0.2s;
 }
 
 .dropdown-menu {
-    background-color: #fbfbff2f;
+    background-color: rgba(160, 0, 75, 0.082);
 }
 
-.custonav>ul>li>a:hover {
-    border-bottom: solid 3px white;
-    transition: 0.2s;
+.dropdown-menu>li>a {
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: #979292 5px 5px 10px;
+    text-decoration-line: none;
 }
 
 /*--------------NavBar-------------------------------------*/
